@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+David Dankwah
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+rood (denk ik)
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Mijn focus wordt surface plane
  
 </details>
 
@@ -36,15 +36,16 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://dusseldorpmotorrad.nl/ dit de website die ik ga namaken. Ken zelf geen leuke website of iets maar was toevallig al op deze website bezig
+ en het viel me op dat het leuke hover animaties had dus besloot om hier voor te kiezen. Zelf zou ik wel een paar andere css anomaties erbij toevoegen om het misschen wat levender te maken
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen1.png" width="375px" alt="de homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen2.pngg" width="375px" alt="webshop pagina">
  
 </details>
 
