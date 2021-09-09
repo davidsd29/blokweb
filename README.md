@@ -41,11 +41,11 @@ https://dusseldorpmotorrad.nl/ dit de website die ik ga namaken. Ken zelf geen l
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/screen1.png" width="375px" alt="de homepage">
+<img src="images/screen1.PNG" width="375px" alt="de homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/screen2.png" width="375px" alt="webshop pagina">
+<img src="images/screen2.PNG" width="375px" alt="webshop pagina">
  
 </details>
 
@@ -71,7 +71,7 @@ hier de naam van de pagina
  <h2>Flex Flex Flex!</h2>
  <p>In de tweede werk groep gingen we aan de slag met flexboxen, ik had daar vorig jaar best wel wat moeite mee dus ik maakte veel aantekeningen zodat ik die kon onthouden en terug lezen uit de stof en de filmpjes. Deze heb ik dan ook weer gebruikt bij het maken van de opdrachten en het ging veel beter dan ik dacht.</p>
   
-  <img src="images/notes.png" width="375px" alt="Flexbox aantekeningen">
+  <img src="images/notes.PNG" width="375px" alt="Flexbox aantekeningen">
 
 </details>
 
