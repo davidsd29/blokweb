@@ -41,11 +41,11 @@ https://dusseldorpmotorrad.nl/ dit de website die ik ga namaken. Ken zelf geen l
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/screen1.PNG" width="375px" alt="de homepage">
+<img src="img/screen1.PNG" width="375px" alt="de homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/screen2.PNG" width="375px" alt="webshop pagina">
+<img src="img/screen2.PNG" width="375px" alt="webshop pagina">
  
 </details>
 
@@ -62,16 +62,16 @@ hier de naam van de pagina
  <h2>BMW Motorrad</h2>
  <p>Tijdens de werkgroep moesten we onze site gaat ontleden en het in semantische html gaan schetsen. ik had de hoofdpagina gedaan van mijn site</p>
  <p>Hier ziet u wat voor onderdelen ik in mijn site heb. bij sommige onderdelen ben ik niet heel diep in gegaan en heb ik het globaal gelaten. Bij andere weer wel.</p>
-<img src="images/breakdown-schets1.jpeg" width="375px" alt="breakdown van de hele pagina">
+<img src="img/breakdown-schets1.jpeg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
  <p>Bij mijn tweede schets ben ik heel diep op mijn header in gegaan, de navigatie, de titels afbeeldingen ect.</p>
-<img src="images/breakdown-schets2.jpeg" width="375px" alt="breakdown van een dynamisch deel (de header)">
+<img src="img/breakdown-schets2.jpeg" width="375px" alt="breakdown van een dynamisch deel (de header)">
 
  <h2>Flex Flex Flex!</h2>
  <p>In de tweede werk groep gingen we aan de slag met flexboxen, ik had daar vorig jaar best wel wat moeite mee dus ik maakte veel aantekeningen zodat ik die kon onthouden en terug lezen uit de stof en de filmpjes. Deze heb ik dan ook weer gebruikt bij het maken van de opdrachten en het ging veel beter dan ik dacht.</p>
   
-  <img src="images/notes.PNG" width="375px" alt="Flexbox aantekeningen">
+  <img src="img/notes.PNG" width="375px" alt="Flexbox aantekeningen">
 
 </details>
 
