@@ -85,26 +85,28 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+oIn week 2 ging ik aan de slag met een groten deel van mijn css. In deze week hadden we les gekregen over het positioneren van elementen. Dit kwam goed voor mij uit want. er zaten een paar leuke tussen die ik in mijn site wilde toepassen. Zoals "Mount Doom in Tongario National Park" heb ook gebruik gemaakt van z-index om bepaalde elementen over elkaar laten lappen. JS had ik ook toevoegd, dit was wel een klus, had er namelijk best wel moeite mee dus had mijn docent en student assistent BO ingeschakeld voor hulp. Waar ik namelijk tegen aan liep was het tevorschijn halen en laten verdwijnen van mijn menu kaart.
+ <img src="img/menu1.PNG" width="375px" alt="standaard navigatie">
+ <img src="img/menu2.PNG" width="375px" alt="Dropdown menu">
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1      | student 2          | student 3    | student 4            |
+| ---            | ---                | ---          | ---                  |
+| dit bespreken  | en dit             | en ik dit    | Het laten verdwijnen |
+| en dat ook nog | dit als er tijd is | nog een punt | en te voorschijn     |
+| ...            | ...                | ...          | van de dropdown      |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- op een logsiche wijze het icon van mijn menu laten verdwijnen en voorschijn laten halen (media)
+- css animaties er beter uit laten zien shoutout to Bo!
+- Het menu te voorschijn kunnen halen.
+
 
 </details>
 
@@ -118,7 +120,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+in week 3 ben ik begonnen aan mijn andere website. Hier heb ik een een paar andere dingen toegevoegd aan de website die niet bij het orginele site waren. Omdat ik 
+ daar op wilde oefenen. Zoals een formulier. Die goed weergeven en met de juiste code ook. Ik had zelf een beetje moeite met het positioneren van mijn input velden. dus daar had ik hulp bij gevraagd.
+  <img src="img/from1.PNG" width="375px" alt="in vul formulier">
+   <img src="img/fromcode.PNG" width="375px" alt="css code van het formulier">
+ Ook had ik problemen met mijn footer. het was totaal verandert na dat ik mijn classes eruit heb gehaald en heb nog steeds problemen mee om het weer goed te krijgen en om de "onbelangrijke" inhoud erin dicht te klappen. Het heeft heel veel wit ruimte ertussen en het is niet op de juiste manier uitgelijnd.
+ <img src="img/footer1.PNG" width="375px" alt="footer desktop">
+ <img src="img/footer2.PNG" width="375px" alt="footer mobiele scherm">
+ 
 
 
 ### Agenda voor meeting
@@ -126,16 +135,16 @@ samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| dit bespreken  | en dit             | en ik dit    | het positioneren |
+| en dat ook nog | dit als er tijd is | nog een punt | van de input     |
+| ...            | ...                | ...          | velden           |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- Doormiddel van wat we hadden geleerd in de les (GRID) heb ik mijn formulier precies kunnen stijlen als hoe ik het wilde.
+- helaas nog niet uitgekomen met de footer maar dat komt wel!
 - nog een punt
 - ...
 
