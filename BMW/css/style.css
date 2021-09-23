@@ -1,0 +1,819 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --main-achtergrond: white;
+    --about-achtergrond: #2C2E34;
+    --contact-form: #424346;
+    --koppen: #2C2E34;
+    --afbeelding-text: uppercase;
+    --dark-contrast-text: white;
+    --buttons: #0062ff;
+    --button-hover: rgba(0, 98, 255, 70%);
+    --main-footer-text: #5e5e5e;
+    --highlights: rgba(0, 0, 0, 0.05);
+    --focus: #1E90FF;
+    --lettertype: "Nunito", Helvetica, sans-serif;
+
+}
+
+/* buttons */
+.btn {
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--lettertype);
+    background-color: var(--buttons);
+    color: var(--dark-contrast-text);
+}
+
+.btn:hover {
+    border-radius: 5em;
+    background-color: var(--button-hover);
+    color: white;
+}
+
+/* ----------------------------------------HEADER------------------------------------------- */
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--main-achtergrond);
+    color: black;
+    z-index: 2;
+}
+
+header nav:first-of-type {
+    display: flex;
+    flex-grow: 1;
+    position: sticky;
+    top: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav:first-of-type ul {
+    display: flex;
+    flex-grow: 1;
+    gap: 1px;
+    list-style: none;
+    align-items: center;
+
+}
+
+header li {
+    display: block;
+    padding: 1em;
+    min-width: 3em;
+    line-height: 3.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+header form {
+    display: flex;
+    flex-grow: 5;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+header form input {
+    display: flex;
+    flex-grow: 5;
+}
+
+header form input {
+    padding: 0 .5em;
+    min-width: 12em;
+    max-width: 38em;
+    line-height: 2em;
+}
+
+header span {
+    font-size: 30px;
+}
+
+
+header li:hover,
+a:hover {
+    color: var(--main-footer-text);
+}
+
+form button {
+    margin-left: 1em;
+    border: none;
+}
+
+form input {
+    border-color: var(--highlights);
+    border-radius: 1em;
+}
+
+form input:focus {
+    border-color: var(--focus);
+}
+
+.home header>img:first-of-type {
+    width: 10em;
+    height: 6em;
+}
+
+
+main {
+    justify-content: center;
+    align-items: center;
+}
+
+header>div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+}
+
+
+
+header>div img {
+    padding-right: 1em;
+    width: 2em;
+    height: 1.8em;
+
+
+}
+
+.hidden {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.menu div {
+    width: 2em;
+    height: .1em;
+    margin-bottom: .5em;
+    background-color: black;
+    transition: 1s;
+
+}
+
+.cross1 {
+    width: 4em;
+    transform-origin: 95% 95%;
+    transform: rotate(45deg);
+    background-color: red !important;
+
+}
+
+.verdwijn {
+    opacity: 0;
+}
+
+.cross2 {
+    width: 4em;
+    transform-origin: 95% 95%;
+    transform: rotate(-45deg);
+    background-color: red !important;
+}
+
+.dropdown {
+    position: absolute;
+    box-sizing: border-box;
+    top: 105px;
+    left: -110vw;
+    width: 100%;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 15px;
+    background-color: var(--main-achtergrond);
+    border: .3em solid black;
+    border-radius: 3px;
+    overflow-y: scroll;
+    transition: 1s;
+    z-index: 2;
+}
+
+.magic {
+    left: -11px;
+}
+
+.dropdown ul {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.dropdown li {
+    padding-left: 5px;
+    text-align: left;
+    line-height: 50px;
+    border-bottom: solid 2px var(--highlights);
+}
+
+.dropdown li:hover {
+    background-color: var(--highlights);
+}
+
+/* ----------------------------------------MAIN-TOP WEBSHOP------------------------------------------- */
+.webshop main section:first-of-type,
+.home main section:first-of-type,
+.webshop main section:nth-of-type(2) {
+    margin-bottom: 3em;
+}
+
+.webshop main section:first-of-type img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.webshop main aside:first-of-type div {
+    position: relative;
+    top: 15em;
+    margin-left: 5em;
+    font-family: var(--lettertype);
+    color: var(--dark-contrast-text);
+    z-index: 1;
+
+}
+
+.webshop main aside:first-of-type a,
+form button {
+    display: block;
+    width: 7.5em;
+    height: 3.5em;
+    line-height: 3em;
+    transition: 1s;
+}
+
+.webshop main aside:first-of-type h1 {
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+/* ----------------------------------------MAIN-TOP MOTORRAD------------------------------------------- */
+
+.home main section:first-of-type aside {
+    position: relative;
+}
+
+.home main section:first-of-type div {
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0.1em;
+    left: 0;
+    padding: 1em;
+    width: 20em;
+    font-size: 30px;
+    font-family: var(--lettertype);
+    color: var(--dark-contrast-text);
+    text-transform: var(--afbeelding-text);
+    background-color: rgba(0, 0, 0, 80%);
+}
+
+/* ----------------------------------------MAIN-CATEGORIE------------------------------------------- */
+.webshop main section:nth-of-type(2) {
+    font-family: var(--lettertype);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.webshop main section:nth-of-type(2)>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.webshop main section:nth-of-type(2) img {
+    height: 150px;
+    width: 19em;
+    flex-grow: 2;
+    transition: transform 0.5s;
+}
+
+.webshop main section:nth-of-type(2) img:hover {
+    transform: scale(1.5);
+}
+
+.webshop main section:nth-of-type(2)>h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: .5em;
+    color: var(--koppen);
+}
+
+/* check docent voor hulp hij pakt em niet > hij gaat dn ook de footer pakken-------------------------------------- */
+.webshop main section:nth-of-type(2) article {
+    position: relative;
+}
+
+.webshop main article div {
+    display: block;
+    overflow: hidden;
+    /* snijd de afbeelding af als het buiten de containter valt*/
+}
+
+.webshop main article h2 {
+    position: absolute;
+    text-align: center;
+    top: 2.5em;
+    z-index: 1;
+    color: var(--dark-contrast-text);
+    font-size: 25px;
+    font-weight: 700;
+    left: 50%;
+    margin-left: -50px;
+}
+
+/* ----------------------------------------Diensten------------------------------------------ */
+.home main section:first-of-type {
+    width: 100%;
+}
+
+.home main section:first-of-type img {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.home main section:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    background-color: var(--about-achtergrond);
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.home main section:nth-of-type(2) article {
+    position: relative;
+    width: 18em;
+}
+
+.home main section:nth-of-type(2) div:hover {
+    /* padding:2em .5em .5em ; */
+    padding-bottom: 2em;
+}
+
+.home main section:nth-of-type(2) img {
+    width: 100%;
+}
+
+.home main section:nth-of-type(2) div {
+    position: absolute;
+    bottom: 0em;
+    padding: 5px;
+    width: 100%;
+    background-color: var(--main-achtergrond);
+    transition: 1s;
+    z-index: 1;
+}
+
+.home main section:nth-of-type(2) p {
+    line-height: 2em;
+    font-weight: lighter;
+    color: var(--main-footer-text);
+    border-bottom: solid 2px var(--main-footer-text);
+}
+
+/* ----------------------------------------OVERONS------------------------------------------ */
+.home main section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 0;
+    background-color: #3C3E46;
+    font-family: var(--lettertype);
+    color: var(--dark-contrast-text);
+
+
+}
+
+.home main section:nth-of-type(3) h1 {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+
+
+}
+
+.home main section:nth-of-type(3) a,
+.home main section:nth-of-type(4) input[type=submit] {
+    display: flex;
+    justify-content: center;
+    width: 7.5em;
+    height: 3.5em;
+    line-height: 3.5em;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.home main section:nth-of-type(3) article {
+    margin-bottom: 2em;
+    line-height: 1.7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 97%;
+}
+
+/* ----------------------------------------CONTACT------------------------------------------ */
+.home main section:nth-of-type(4) {
+    background-color: var(--contact-form);
+    padding: 15px 15px;
+    margin-bottom: 0;
+}
+
+.home main section:nth-of-type(4) form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: none;
+    font-family: var(--lettertype);
+}
+
+
+.home main section:nth-of-type(4) form input {
+    display: flex;
+    flex-grow: 5;
+}
+
+.home main fieldset {
+    width: 100%;
+    border: none;
+}
+
+.home main section:nth-of-type(4) label {
+    color: var(--dark-contrast-text);
+}
+
+.home main section:nth-of-type(4) input:focus {
+    background-color: lightblue;
+}
+
+.home main section:nth-of-type(4) textarea:focus {
+    background-color: lightblue;
+}
+
+.home main section:nth-of-type(4) input[type=text],
+input[type=email],
+input[type=tel] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.home main section:nth-of-type(4) textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+
+/* ----------------------------------------MAIN-PRODUCTS------------------------------------------- */
+.webshop main section:nth-of-type(3) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 15px;
+
+}
+
+.webshop main section:nth-of-type(3) h2 {
+    font-size: x-large;
+    text-decoration: none;
+    color: #414141;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.webshop main section:nth-of-type(3) h2:hover {
+    color: var(--focus);
+}
+
+.webshop main section:nth-of-type(3) h2:focus {
+    color: black;
+    background-color: var(--highlights);
+    border-color: var(--focus);
+}
+
+.webshop main section:nth-of-type(4) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.webshop main section:nth-of-type(4) article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 1.5em;
+    width: 12em;
+    padding: 10px 15px;
+    overflow: hidden;
+    /* snijd de afbeelding af als het buiten de containter valt*/
+}
+
+.webshop main section:nth-of-type(4) article:hover {
+    box-shadow: 3px 3px 20px black;
+}
+
+.webshop main section:nth-of-type(4) img {
+    margin-bottom: 2em;
+    height: 15em;
+    width: 100%;
+    transform: scale(1.2);
+    /* vergrooting van de afbeelding*/
+    transition: 1s;
+    /* tijds duur van de transactie*/
+
+
+}
+
+.webshop main section:nth-of-type(4) img:hover {
+    transform: scale(.8);
+}
+
+.webshop main section:nth-of-type(4) button {
+    width: 100%;
+    height: 2.5em;
+    border-radius: .5em;
+}
+
+.webshop main section:nth-of-type(4) div {
+    display: grid;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.webshop main section:nth-of-type(4) p {
+    margin-top: 1em;
+    overflow: hidden;
+    color: var(--main-footer-text);
+}
+
+/* ----------------------------------------MAIN-PAKETTEN------------------------------------------- */
+.webshop main section:nth-of-type(5) {
+    margin-bottom: 0;
+}
+
+.webshop main section:nth-of-type(5) div:first-of-type img {
+    height: 6em;
+    width: 10em;
+    position: relative;
+    animation: carMove 8s infinite;
+}
+
+.webshop main section:nth-of-type(5) div:nth-of-type(2) {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.webshop main section:nth-of-type(5) div:nth-of-type(2) img {
+    width: 25em;
+    margin-bottom: 1em;
+    flex-grow: 1;
+}
+
+/* ----------------------------------------MAIN-MERKEN------------------------------------------- */
+.merken {
+    max-width: 1290px;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.merken ul {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.merken li {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.merken img {
+    height: 3em;
+    width: 5em;
+    animation: flip 7s infinite linear;
+    /*linerare oneidige loop en de %s is hoelang de animatie duurt*/
+}
+
+/* ----------------------------------------FOOTER------------------------------------------- */
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    font-size: 14px;
+    color: var(--dark-contrast-text);
+    background-color: #273238;
+}
+
+footer section {
+    width: 100%;
+    min-width: 18em;
+    margin: 2em;
+}
+footer section p{
+    max-width: 20em;
+}
+
+footer h2 {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    color: var(--dark-contrast-text);
+}
+
+footer ul {
+    list-style: none;
+    Line-height: 2em;
+}
+
+footer section:first-of-type h2,
+p {
+    margin-bottom: .5em;
+}
+
+footer section:first-of-type p:nth-of-type(2) {
+    margin-top: 2em;
+}
+
+footer section:nth-of-type(2) h2,
+section:nth-of-type(3) h2,
+section:nth-of-type(4) h2 {
+    margin-bottom: 1.5em;
+    ;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--dark-contrast-text);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    color: var(--main-footer-text);
+}
+
+/* ----------------------------------------KEYFRAMES------------------------------------------- */
+@keyframes flip {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotateY(359deg);
+    }
+}
+
+
+@keyframes carMove {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 100vw;
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+
+/* ----------------------------------------MEDIA------------------------------------------- */
+@media screen and (max-width: 550px) {
+
+    .extra-info {
+        display: none;
+    }
+
+    footer section:nth-of-type(2) h2,
+    section:nth-of-type(3) h2,
+    section:nth-of-type(4) h2 {
+        line-height: 3em;
+        margin-bottom: 0;
+        border-bottom: 1px solid var(--highlights);
+        ;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .merken li:nth-of-type(6) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 695px) {
+
+    .merken li:nth-of-type(5),
+    header nav:first-of-type,
+    header form {
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .merken li:nth-of-type(3) {
+        display: none;
+    }
+
+    .merken img {
+        height: 3em;
+        width: 3em;
+    }
+
+    .webshop section:nth-of-type(5)ul {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 695px) {
+    header>div {
+        display: none;
+    }
+
+}
+
+@media (min-width: 30em) {
+    .home main section:nth-of-type(4) form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5em;
+    }
+
+    /* -----------------------------------nog bezig -------------------------------*/
+    footer{
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        
+     
+    }
+}
+
+@media (max-width: 30em) {
+    .webshop main section:nth-of-type(4) img {
+        transform: scale(1);
+    }
+}
