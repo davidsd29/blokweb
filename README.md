@@ -18,10 +18,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ### Auteur:
 David Dankwah
 
-#### Je startniveau:
+#### Mijn startniveau:
 rood (denk ik)
 
-#### Je focus:
+#### Mijn focus:
 Mijn focus wordt surface plane
  
 </details>
@@ -30,12 +30,12 @@ Mijn focus wordt surface plane
 
 
 
-## Je website
-
+## Mijn website
+davidsd29.github.io/blokweb/bmw
 <details open>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
-### Je opdracht:
+### De opdracht:
 https://dusseldorpmotorrad.nl/ dit de website die ik ga namaken. Ken zelf geen leuke website of iets maar was toevallig al op deze website bezig
  en het viel me op dat het leuke hover animaties had dus besloot om hier voor te kiezen. Zelf zou ik wel een paar andere css anomaties erbij toevoegen om het misschen wat levender te maken
 
@@ -58,7 +58,7 @@ hier de naam van de pagina
 <details>
 <summary>Breakdownschets van de desbetrefende site</summary>
 
-### de hele pagina: 
+
  <h2>BMW Motorrad</h2>
  <p>Tijdens de werkgroep moesten we onze site gaat ontleden en het in semantische html gaan schetsen. ik had de hoofdpagina gedaan van mijn site</p>
  <p>Hier ziet u wat voor onderdelen ik in mijn site heb. bij sommige onderdelen ben ik niet heel diep in gegaan en heb ik het globaal gelaten. Bij andere weer wel.</p>
@@ -85,19 +85,19 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-oIn week 2 ging ik aan de slag met een groten deel van mijn css. In deze week hadden we les gekregen over het positioneren van elementen. Dit kwam goed voor mij uit want. er zaten een paar leuke tussen die ik in mijn site wilde toepassen. Zoals "Mount Doom in Tongario National Park" heb ook gebruik gemaakt van z-index om bepaalde elementen over elkaar laten lappen. JS had ik ook toevoegd, dit was wel een klus, had er namelijk best wel moeite mee dus had mijn docent en student assistent BO ingeschakeld voor hulp. Waar ik namelijk tegen aan liep was het tevorschijn halen en laten verdwijnen van mijn menu kaart.
+In week 2 ging ik aan de slag met een groten deel van mijn css. In deze week hadden we les gekregen over het positioneren van elementen. Dit kwam goed voor mij uit want. er zaten een paar leuke tussen die ik in mijn site wilde toepassen. Zoals "Mount Doom in Tongario National Park" heb ook gebruik gemaakt van z-index om bepaalde elementen over elkaar laten lappen. JS had ik ook toevoegd, dit was wel een klus, had er namelijk best wel moeite mee dus had mijn docent en student assistent BO ingeschakeld voor hulp. Waar ik namelijk tegen aan liep was het tevorschijn halen en laten verdwijnen van mijn menu kaart.
  <img src="BMW/img/menu1.PNG" width="375px" alt="standaard navigatie">
- <img src="BMW/img/menu2.PNG" width="375px" alt="Dropdown menu">
+ <img src="BMW/img/menu2.PNG" width="375px" alt="Dropdown menu van mijn site">
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4            |
-| ---            | ---                | ---          | ---                  |
-| dit bespreken  | en dit             | en ik dit    | Het laten verdwijnen |
-| en dat ook nog | dit als er tijd is | nog een punt | en te voorschijn     |
-| ...            | ...                | ...          | van de dropdown      |
+| student 1          | student 2    | student 3            |
+| CSS                | backdrop-    | ---                  |
+| Background images  | filter       | Het laten verdwijnen |
+| dit als er tijd is |              | en te voorschijn     |
+|                    |              | van de dropdown      |
 
 
 ### Verslag van meeting
@@ -179,7 +179,7 @@ Doormiddel van de test ben ik er achter gekomen dat het gebruik van een muis hee
  </ol>
 
 
-#### Titel tweede bevinding. 
+
  <h2>Onverwachte afleiding tijdens het bezoeken van de site</h2>
 Het komt iedereen wel eens voor dat je bezig bent op het internet en je wordt opeens gebeld of er komt een mug in je kamer die je wilt door maken. Dan verdwijnt de focus en raak je afgeleid door wat er gebeurt. Maar weet je dan nog waar je bent gebleven? Wat je nog moet invullen in een formulier? Dat is wat ik ben gaan testen doormiddel van een balon hoog te houden en een formulier in te vullen.
   <img src="BMW/img/ballontest.PNG" width="375px" alt="een capture van mij die een ballon hoog houdt en mijn site bezoekt">
@@ -188,14 +188,13 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 Dit verliep best goed want ik had gier al rekening mee gehouden doormiddel van altijd de label te koppelen aan de input veld en ook boven het iput veld te plaatsen zodat de gebruiker altijd weet wat erin moet. Als extra's heb ik nog een placeholder erbij toegevoed als extra steun.
 <img src="BMW/img/from1.PNG" width="375px" alt="in vul formulier">
 
-#### Titel volgende bevinding.
+
  <h2>Slechte motoriek</h2>
 Niet iedereen heeft alle vingers precies zoals ze "moeten" zijn, ook een groep waar je als ontwerper rekening mee moet houden. Dit heb ik ook getest doormiddel van elastieken om mijn wijs- en middelvingers te doen en mijn website te bezoeken. 
 <img src="BMW/img/vingertest.PNG" width="375px" alt="in vul formulier">
  
  
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### bevindingen. 
 Je merkt dat je veel meer je andere vingers gaat gebruiken om het te compenseren. Dat betekent ook dat het fijner is als knoppen die in de buurt van die vinger liggen vaker worden gebruikt. zoals van je linker had de tab want die is bij je pink, of van je rechter hand de enter knop. Doormiddel van een goede focus bij de elementen dan moet het goed te doen zijn.
 
 </details>
