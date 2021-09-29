@@ -8,6 +8,9 @@ body {
     position: relative;
     justify-content: center;
     align-items: center;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 :root {
@@ -35,12 +38,22 @@ body {
     font-family: var(--lettertype);
     background-color: var(--buttons);
     color: var(--dark-contrast-text);
+    transition: 1s;
 }
 
 .btn:hover {
     border-radius: 5em;
     background-color: var(--button-hover);
-    color: white;
+    color: var(--dark-contrast-text);
+}
+
+.btn:active {
+    background-color: darkblue;
+}
+
+.btn:focus {
+    outline:none;
+    background-color: lightblue;
 }
 
 /* ----------------------------------------HEADER------------------------------------------- */
@@ -48,7 +61,7 @@ header {
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 5px;
     background-color: var(--main-achtergrond);
@@ -56,7 +69,7 @@ header {
     z-index: 2;
 }
 
-header nav:first-of-type {
+header nav {
     display: flex;
     flex-grow: 1;
     position: sticky;
@@ -68,7 +81,7 @@ header a {
     color: black;
 }
 
-header nav:first-of-type ul {
+header nav ul {
     display: flex;
     flex-grow: 1;
     gap: 1px;
@@ -93,6 +106,7 @@ header form {
     flex-grow: 5;
     justify-content: flex-end;
     padding: 1em;
+    transition: 1s 1s;
 }
 
 header form input {
@@ -105,6 +119,14 @@ header form input {
     min-width: 12em;
     max-width: 38em;
     line-height: 2em;
+}
+
+header form input:focus {
+    background-color: lightblue;
+}
+
+header form:focus-within {
+    opacity: 1;
 }
 
 header span {
@@ -129,6 +151,7 @@ form input {
 
 form input:focus {
     border-color: var(--focus);
+
 }
 
 .home header>img:first-of-type {
@@ -197,23 +220,6 @@ header>div img {
     background-color: red !important;
 }
 
-.dropdown {
-    position: absolute;
-    box-sizing: border-box;
-    top: 105px;
-    left: -110vw;
-    width: 100%;
-    flex-grow: 1;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 0 15px;
-    background-color: var(--main-achtergrond);
-    border: .3em solid black;
-    border-radius: 3px;
-    overflow-y: scroll;
-    transition: 1s;
-    z-index: 2;
-}
 
 .magic {
     left: -11px;
@@ -264,7 +270,7 @@ form button {
     width: 7.5em;
     height: 3.5em;
     line-height: 3em;
-    transition: 1s;
+    
 }
 
 .webshop main aside:first-of-type h1 {
@@ -285,7 +291,7 @@ form button {
     left: 0;
     padding: 1em;
     width: 20em;
-    font-size: 30px;
+    font-size: clamp(1em, 2vw, 5em);
     font-family: var(--lettertype);
     color: var(--dark-contrast-text);
     text-transform: var(--afbeelding-text);
@@ -326,7 +332,6 @@ form button {
     color: var(--koppen);
 }
 
-/* check docent voor hulp hij pakt em niet > hij gaat dn ook de footer pakken-------------------------------------- */
 .webshop main section:nth-of-type(2) article {
     position: relative;
 }
@@ -458,7 +463,6 @@ form button {
     font-family: var(--lettertype);
 }
 
-
 .home main section:nth-of-type(4) form input {
     display: flex;
     flex-grow: 5;
@@ -475,6 +479,10 @@ form button {
 
 .home main section:nth-of-type(4) input:focus {
     background-color: lightblue;
+}
+
+.home main section:nth-of-type(4) input[type=submit]:active {
+    background-color: darkblue;
 }
 
 .home main section:nth-of-type(4) textarea:focus {
@@ -534,8 +542,7 @@ input[type=tel] {
 }
 
 .webshop main section:nth-of-type(4) {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -543,13 +550,11 @@ input[type=tel] {
 
 .webshop main section:nth-of-type(4) article {
     position: relative;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     box-sizing: border-box;
     flex-grow: 1;
     margin: 1.5em;
-    width: 12em;
+    width: 17em;
     padding: 10px 15px;
     overflow: hidden;
     /* snijd de afbeelding af als het buiten de containter valt*/
@@ -653,28 +658,38 @@ input[type=tel] {
 
 /* ----------------------------------------FOOTER------------------------------------------- */
 footer {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: center;
     align-items: center;
-    gap:1em;
+    gap: 1em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 14px;
     color: var(--dark-contrast-text);
     background-color: #273238;
 }
 
-footer section {
+footer img {
     width: 100%;
-    min-width: 18em;
-    margin: 2em;
 }
-footer section p{
+
+footer section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+footer section p {
     max-width: 20em;
 }
 
 footer h2 {
-    margin-top: 1em;
+    /* margin-top: 1em; */
     margin-bottom: 1.5em;
     color: var(--dark-contrast-text);
 }
@@ -712,6 +727,9 @@ footer a:hover {
 .icon {
     color: var(--main-footer-text);
 }
+.show{
+    display: unset;
+}
 
 /* ----------------------------------------KEYFRAMES------------------------------------------- */
 @keyframes flip {
@@ -744,9 +762,6 @@ footer a:hover {
 /* ----------------------------------------MEDIA------------------------------------------- */
 @media screen and (max-width: 550px) {
 
-    .extra-info {
-        display: none;
-    }
 
     footer section:nth-of-type(2) h2,
     section:nth-of-type(3) h2,
@@ -754,7 +769,7 @@ footer a:hover {
         line-height: 3em;
         margin-bottom: 0;
         border-bottom: 1px solid var(--highlights);
-        ;
+
     }
 }
 
@@ -764,15 +779,51 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 695px) {
+@media screen and (max-width: 768px) {
 
-    .merken li:nth-of-type(5),
-    header nav:first-of-type,
-    header form {
+    .merken li:nth-of-type(5){
         display: none;
+    }
 
+    header nav{
+            position: absolute;
+            box-sizing: border-box;
+            top: 105px;
+            left: -110vw;
+            width: 100%;
+            flex-grow: 1;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 0 15px;
+            background-color: var(--main-achtergrond);
+            border: .3em solid black;
+            border-radius: 3px;
+            overflow-y: scroll;
+            transition: 1s;
+            z-index: 2;
+    }
+
+    header form {
+        position: absolute;
+        box-sizing: border-box;
+        top: 105px;
+        left: -11px;
+        opacity: 0;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 1em;
+        background-color: var(--main-achtergrond);
+        border-radius: 1em;
+        box-shadow: 0 0px 0px 300px rgb(0 0 0 / 80%);
+        transition: 1s;
+        z-index: 2;
+    }
+    header nav ul{
+        display: grid;
     }
 }
+
 
 @media screen and (max-width: 500px) {
     .merken li:nth-of-type(3) {
@@ -789,7 +840,7 @@ footer a:hover {
     }
 }
 
-@media screen and (min-width: 695px) {
+@media screen and (min-width: 768px) {
     header>div {
         display: none;
     }
@@ -803,17 +854,40 @@ footer a:hover {
         gap: 1.5em;
     }
 
-    /* -----------------------------------nog bezig -------------------------------*/
-    footer{
-        display: grid;
-        grid-template-columns: repeat(4, 25%);
-        
-     
+    footer,
+    .webshop main section:nth-of-type(4) {
+
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 60em) {
+
+    footer,
+    .webshop main section:nth-of-type(4) {
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: flex-start;
     }
 }
 
 @media (max-width: 30em) {
     .webshop main section:nth-of-type(4) img {
         transform: scale(1);
+    }
+
+    footer ul {
+        display: none;
+    }
+
+    footer section:nth-of-type(2) h2,
+    section:nth-of-type(3) h2,
+    section:nth-of-type(4) h2 {
+        line-height: 3em;
+        margin-bottom: 0;
+        border-bottom: 1px solid var(--main-footer-text);
+
     }
 }
