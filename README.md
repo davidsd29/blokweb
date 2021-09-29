@@ -160,30 +160,43 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Deze week zijn we aan de slag geweest met de toegangelijkheid van onze website. Is het ook bruikbaar voor mensen met een beperking? Of mensen die slechtziend zijn?
+ Dit hebben we getest doormiddel van speciale brillen te dragen die je zicht belemeren, Mmet 2 verschillende dingen tegelijkertijd bezig zijn, een apparaat die je stroomstoten geeft hierdoor kan je het effect van parkingson na botsen en elastieken om je vingers doen.
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+ <h2>Moteriek test met parkinson test apparaat</h2>
+ Niet iedereen weet hoe het leven is met parkinson maar het het is wel iets wat je als ontwerper zijnde in je achterhoofd moet houden. Zo kan een ontwerper zijn site zo gebruikers vriendelijk maken voor meerdere type gebruikers. Doormiddel van een schok apparaat hebben we et effect van parkinson kunnen na botsen. Ik heb het apparaat op mijn arm gezet en ben door mijn site heen gegaan.
+ <img src="BMW/img/parkinsontest.PNG" width="375px" alt="parkinson test apparaat">
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Doormiddel van de test ben ik er achter gekomen dat het gebruik van een muis heel lastig is en dat zo"n gebruiker eerder door de site heen gaat tabben dan het klikken met de muis. Hier merkte ik dat niet alle elementen werden gepakt met de tab en dat het soms verdween of niet duidelijk genoeg was wat nou gefocused was. 
+ 
+ <h4>Oplossingen</h4>
+ <ol>
+  <li>In mijn navigatie heb ik alles een link gegeven zodat het visueel zichtbaar werd als je er door heen ging tabben. </li>
+  <li>Ik had 2 keer een menu in me code waardoor als je door me site ging tabben de focus verdween omdat het naar de andere menu ging die niet zichtbaar was. Dit heb ik   aangepast doormiddel van het tweede menu eruit te halen en de orginele menu te laten veranderen als het op een kleinere device werd gedisplayd.</li>
+  
+ </ol>
 
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+ <h2>Onverwachte afleiding tijdens het bezoeken van de site</h2>
+Het komt iedereen wel eens voor dat je bezig bent op het internet en je wordt opeens gebeld of er komt een mug in je kamer die je wilt door maken. Dan verdwijnt de focus en raak je afgeleid door wat er gebeurt. Maar weet je dan nog waar je bent gebleven? Wat je nog moet invullen in een formulier? Dat is wat ik ben gaan testen doormiddel van een balon hoog te houden en een formulier in te vullen.
+  <img src="BMW/img/ballontest.PNG" width="375px" alt="een capture van mij die een ballon hoog houdt en mijn site bezoekt">
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit verliep best goed want ik had gier al rekening mee gehouden doormiddel van altijd de label te koppelen aan de input veld en ook boven het iput veld te plaatsen zodat de gebruiker altijd weet wat erin moet. Als extra's heb ik nog een placeholder erbij toegevoed als extra steun.
+<img src="BMW/img/from1.PNG" width="375px" alt="in vul formulier">
 
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
+#### Titel volgende bevinding.
+ <h2>Slechte motoriek</h2>
+Niet iedereen heeft alle vingers precies zoals ze "moeten" zijn, ook een groep waar je als ontwerper rekening mee moet houden. Dit heb ik ook getest doormiddel van elastieken om mijn wijs- en middelvingers te doen en mijn website te bezoeken. 
+<img src="BMW/img/vingertest.PNG" width="375px" alt="in vul formulier">
+ 
+ 
 #### Titel nog een bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Je merkt dat je veel meer je andere vingers gaat gebruiken om het te compenseren. Dat betekent ook dat het fijner is als knoppen die in de buurt van die vinger liggen vaker worden gebruikt. zoals van je linker had de tab want die is bij je pink, of van je rechter hand de enter knop. Doormiddel van een goede focus bij de elementen dan moet het goed te doen zijn.
 
 </details>
 
