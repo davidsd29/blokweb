@@ -853,6 +853,10 @@ footer a:hover {
         grid-template-columns: 1fr 1fr;
         gap: 1.5em;
     }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     footer,
     .webshop main section:nth-of-type(4) {
@@ -860,9 +864,15 @@ footer a:hover {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
     }
-
 }
+@media (max-width: 35em) {
 
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 @media (min-width: 60em) {
 
     footer,
