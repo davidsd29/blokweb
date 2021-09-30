@@ -52,7 +52,7 @@ body {
 }
 
 .btn:focus {
-    outline:none;
+    outline: none;
     background-color: lightblue;
 }
 
@@ -270,7 +270,7 @@ form button {
     width: 7.5em;
     height: 3.5em;
     line-height: 3em;
-    
+
 }
 
 .webshop main aside:first-of-type h1 {
@@ -660,7 +660,7 @@ input[type=tel] {
 footer {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 1em;
     width: 100%;
     margin-left: auto;
@@ -727,7 +727,8 @@ footer a:hover {
 .icon {
     color: var(--main-footer-text);
 }
-.show{
+
+.show {
     display: unset;
 }
 
@@ -781,26 +782,26 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
 
-    .merken li:nth-of-type(5){
+    .merken li:nth-of-type(5) {
         display: none;
     }
 
-    header nav{
-            position: absolute;
-            box-sizing: border-box;
-            top: 105px;
-            left: -110vw;
-            width: 100%;
-            flex-grow: 1;
-            margin-left: 10px;
-            margin-right: 10px;
-            padding: 0 15px;
-            background-color: var(--main-achtergrond);
-            border: .3em solid black;
-            border-radius: 3px;
-            overflow-y: scroll;
-            transition: 1s;
-            z-index: 2;
+    header nav {
+        position: absolute;
+        box-sizing: border-box;
+        top: 105px;
+        left: -110vw;
+        width: 100%;
+        flex-grow: 1;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0 15px;
+        background-color: var(--main-achtergrond);
+        border: .3em solid black;
+        border-radius: 3px;
+        overflow-y: scroll;
+        transition: 1s;
+        z-index: 2;
     }
 
     header form {
@@ -819,7 +820,8 @@ footer a:hover {
         transition: 1s;
         z-index: 2;
     }
-    header nav ul{
+
+    header nav ul {
         display: grid;
     }
 }
@@ -853,7 +855,8 @@ footer a:hover {
         grid-template-columns: 1fr 1fr;
         gap: 1.5em;
     }
-    header{
+
+    header {
         display: flex;
         flex-wrap: wrap;
     }
@@ -865,6 +868,7 @@ footer a:hover {
         justify-content: center;
     }
 }
+
 @media (max-width: 35em) {
 
     header {
@@ -873,13 +877,14 @@ footer a:hover {
         justify-content: center;
     }
 }
+
 @media (min-width: 60em) {
 
     footer,
     .webshop main section:nth-of-type(4) {
         grid-template-columns: repeat(4, 1fr);
         justify-content: center;
-        align-items: flex-start;
+
     }
 }
 
