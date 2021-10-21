@@ -3,16 +3,6 @@
     margin: 0;
 }
 
-html,
-body {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    max-width: 1260px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 :root {
     --main-achtergrond: white;
     --about-achtergrond: #2C2E34;
@@ -28,6 +18,19 @@ body {
     --lettertype: "Nunito", Helvetica, sans-serif;
 
 }
+
+html,
+body {
+    font-family: var(--lettertype);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 /* buttons */
 .btn {
@@ -60,10 +63,12 @@ body {
 header {
     position: sticky;
     top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    box-sizing: border-box;
+    padding: 15px 15px;
     background-color: var(--main-achtergrond);
     color: black;
     z-index: 2;
@@ -116,8 +121,6 @@ header form input {
 
 header form input {
     padding: 0 .5em;
-    min-width: 12em;
-    max-width: 38em;
     line-height: 2em;
 }
 
@@ -246,6 +249,9 @@ header>div img {
 .home main section:first-of-type,
 .webshop main section:nth-of-type(2) {
     margin-bottom: 3em;
+    padding: 15px 15px;
+    box-sizing: border-box;
+
 }
 
 .webshop main section:first-of-type img {
@@ -291,7 +297,7 @@ form button {
     left: 0;
     padding: 1em;
     width: 20em;
-    font-size: clamp(1em, 2vw, 5em);
+    font-size: clamp(.6em, 2vw, 5em);
     font-family: var(--lettertype);
     color: var(--dark-contrast-text);
     text-transform: var(--afbeelding-text);
@@ -300,7 +306,6 @@ form button {
 
 /* ----------------------------------------MAIN-CATEGORIE------------------------------------------- */
 .webshop main section:nth-of-type(2) {
-    font-family: var(--lettertype);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -369,10 +374,10 @@ form button {
 .home main section:nth-of-type(2) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1em;
+    justify-content: space-evenly;
+    gap: 1.2em;
     background-color: var(--about-achtergrond);
-    padding: 10px;
+    padding: 15px 15px;
     margin-bottom: 0;
 }
 
@@ -382,7 +387,6 @@ form button {
 }
 
 .home main section:nth-of-type(2) div:hover {
-    /* padding:2em .5em .5em ; */
     padding-bottom: 2em;
 }
 
@@ -395,6 +399,7 @@ form button {
     bottom: 0em;
     padding: 5px;
     width: 100%;
+    box-sizing: border-box;
     background-color: var(--main-achtergrond);
     transition: 1s;
     z-index: 1;
@@ -413,7 +418,7 @@ form button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 15px 15px;
     margin-bottom: 0;
     background-color: #3C3E46;
     font-family: var(--lettertype);
@@ -425,6 +430,7 @@ form button {
 .home main section:nth-of-type(3) h1 {
     margin-bottom: 1em;
     text-transform: uppercase;
+    text-align: center;
 
 
 }
@@ -445,7 +451,7 @@ form button {
     line-height: 1.7em;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 97%;
+    max-width: 77em;
 }
 
 /* ----------------------------------------CONTACT------------------------------------------ */
@@ -566,7 +572,7 @@ input[type=tel] {
 
 .webshop main section:nth-of-type(4) img {
     margin-bottom: 2em;
-    height: 15em;
+    height: auto;
     width: 100%;
     transform: scale(1.2);
     /* vergrooting van de afbeelding*/
@@ -629,6 +635,8 @@ input[type=tel] {
 /* ----------------------------------------MAIN-MERKEN------------------------------------------- */
 .merken {
     max-width: 1290px;
+    padding: 15px 15px;
+    box-sizing: border-box;
     width: 100%;
     height: 5em;
     display: flex;
@@ -663,6 +671,8 @@ footer {
     align-items: flex-start;
     gap: 1em;
     width: 100%;
+    padding: 15px 15px;
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     font-size: 14px;
@@ -780,7 +790,7 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
     .merken li:nth-of-type(5) {
         display: none;
@@ -869,8 +879,7 @@ footer a:hover {
     }
 }
 
-@media (max-width: 35em) {
-
+@media (max-width: 23em) {
     header {
         display: flex;
         flex-wrap: wrap;
