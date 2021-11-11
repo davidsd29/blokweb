@@ -246,12 +246,16 @@ header>div img {
 
 /* ----------------------------------------MAIN-TOP WEBSHOP------------------------------------------- */
 .webshop main section:first-of-type,
-.home main section:first-of-type,
 .webshop main section:nth-of-type(2) {
     margin-bottom: 3em;
     padding: 15px 15px;
     box-sizing: border-box;
 
+}
+
+.home main section:first-of-type{
+    margin-bottom: 3em;
+    box-sizing: border-box;
 }
 
 .webshop main section:first-of-type img {
@@ -315,7 +319,7 @@ form button {
 .webshop main section:nth-of-type(2)>div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -449,6 +453,7 @@ form button {
 .home main section:nth-of-type(3) article {
     margin-bottom: 2em;
     line-height: 1.7em;
+    padding: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 77em;
@@ -481,7 +486,12 @@ form button {
 
 .home main section:nth-of-type(4) label {
     color: var(--dark-contrast-text);
+    padding-left: 10px;
 }
+.home main section:nth-of-type(4) fieldset:last-of-type label {
+    padding: 0;
+}
+
 
 .home main section:nth-of-type(4) input:focus {
     background-color: lightblue;
@@ -622,8 +632,6 @@ input[type=tel] {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .webshop main section:nth-of-type(5) div:nth-of-type(2) img {
@@ -834,13 +842,19 @@ footer a:hover {
     header nav ul {
         display: grid;
     }
+ 
 }
-
+@media screen and (max-width: 650px) {
+    .webshop main section:nth-of-type(2)>div {
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width: 500px) {
     .merken li:nth-of-type(3) {
         display: none;
     }
+          
 
     .merken img {
         height: 3em;
@@ -914,4 +928,6 @@ footer a:hover {
         border-bottom: 1px solid var(--main-footer-text);
 
     }
+ 
+
 }
